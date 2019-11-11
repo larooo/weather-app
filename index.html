@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to the Weather App</h1>
+      <form action="">
+        <input
+          id="cityName"
+          type="text"
+          placeholder="Enter your City .."
+          spellcheck="false"
+        />
+      </form>
+    </header>
+    <div id="bottom">
+      <!-- <input type="checkbox" /> -->
+      <!-- <button>Fahrenheit</button> -->
+      <div id="infos1">
+        <img
+          id="icon"
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt=""
+        />
+        <div id="temp">47°F|6°C</div>
+        <div id="city" class="font">Damaskus</div>
+      </div>
+      <div id="infos2">
+        <div>
+          <p id="wind">wind 1.75mph</p>
+          <p id="humidity">Humidity</p>
+        </div>
+        <div>
+          <p id="date">Tuesday 10:00</p>
+          <p id="description">Overcast Clouds</p>
+        </div>
+      </div>
+      <div id="infos3">
+        <table>
+          <tr>
+            <td></td>
+            <td class="week font">01/01</td>
+            <td class="week font">01/01</td>
+            <td class="week font">01/01</td>
+            <td class="week font">01/01</td>
+            <td class="week font">01/01</td>
+          </tr>
+          <tr>
+            <td class="font">Min</td>
+            <td class="min">20</td>
+            <td class="min">20</td>
+            <td class="min">20</td>
+            <td class="min">20</td>
+            <td class="min">20</td>
+          </tr>
+          <tr>
+            <td class="font">Max</td>
+            <td class="max">30</td>
+            <td class="max">30</td>
+            <td class="max">30</td>
+            <td class="max">30</td>
+            <td class="max">30</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
