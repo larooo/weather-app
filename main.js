@@ -4,7 +4,6 @@ let form = document.querySelector("form");
 
 const url =
   "https://api.openweathermap.org/data/2.5/forecast?q=Damascus&appid=e26fe5cf2cfeb710540845a34edd70ea";
-const key = "e26fe5cf2cfeb710540845a34edd70ea";
 
 window.onload = () => fetchData(url);
 
